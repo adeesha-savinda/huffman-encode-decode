@@ -27,13 +27,14 @@ Huffman tree is a technique that is used to generate codes that are distinct to 
 6. Read the bits from top of the tree to the bottom to each symbol and record their particular bit pattern 
 
 ### A Practical Example
-Consider the following centence
+Consider the following sentence.
 
-**this lesson is communication engineering**
+**THIS IS COMMUNICATION ENGINEERING**
 
+The following table represents the letters and their occurances in the above sentence.
 |letter|no of occurences|letter|no of occurences|
 |------|----------------|------|----------------|
-|t     |2               |c     |2               |
+|T     |2               |c     |2               |
 |h     |1               |m     |2               |
 |i     |6               |u     |1               |
 |s     |4               |a     |1               |
@@ -41,3 +42,4 @@ Consider the following centence
 |e     |4               |r     |1               |
 |o     |3               |n     |6               |
 
+For the above table, consider the following huffman tree. Arrange all the letters in ascending order in their frequency of their occurance.

@@ -43,3 +43,4 @@ The following table represents the letters and their occurances in the above sen
 |o     |2               |n     |5               |
 
 For the above table, consider the following huffman tree. Arrange all the letters in ascending order in their frequency of their occurance.
+![Huffman Tree Sample](images/huffman_diagram.png)

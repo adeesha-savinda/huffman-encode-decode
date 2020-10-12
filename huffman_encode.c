@@ -1,5 +1,5 @@
 /***************************************/
-/*     HUFFMAN DECODING PROGRAM        */
+/*     HUFFMAN ENCODING PROGRAM        */
 /* CREATED BY ADEESHA SAVINDA DE SILVA */
 /*           12 June 2016              */
 /*     adeesha.savinda@gmail.com       */

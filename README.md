@@ -37,9 +37,9 @@ The following table represents the letters and their occurances in the above sen
 |T     |2               |c     |2               |
 |h     |1               |m     |2               |
 |i     |6               |u     |1               |
-|s     |4               |a     |1               |
-|l     |1               |g     |2               |
-|e     |4               |r     |1               |
-|o     |3               |n     |6               |
+|s     |2               |a     |1               |
+|space |3               |g     |2               |
+|e     |3               |r     |1               |
+|o     |2               |n     |5               |
 
 For the above table, consider the following huffman tree. Arrange all the letters in ascending order in their frequency of their occurance.

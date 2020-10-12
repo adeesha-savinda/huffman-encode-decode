@@ -1,2 +1,2 @@
-# huffman-encode-decode
-C program written to encode (compress) and decode (decompress) a text file in Huffman Encoding method.
+# Compression of Text using Huffman Encoding
+This method of encoding was introduced by David A. Huffman  In 1951. while he was a Ph.D. student at MIT. He was given the task to find an efficient way of encoding and came up with the idea of using a **frequency-sorted binary tree** and proved this method to be the most efficient. He published a paper in 1952 titled "[A Method for the Construction of Minimum Redundancy Codes]http://compression.ru/download/articles/huff/huffman_1952_minimum-redundancy-codes.pdf". 

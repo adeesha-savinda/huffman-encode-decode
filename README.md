@@ -20,10 +20,10 @@ In the other hand no information will be lost in the lossless data compression. 
 ## Huffman Tree and Coding using Huffman
 Huffman tree is a technique that is used to generate codes that are distinct to each other. Using this method, most occurring symbols will get the least number of bits and others accordingly.
 1. Sort all the different symbols and their particular frequency or probability. 
-2. Take the two lowest probability symbol and create a new common node with the probability equal to the sum of the two probability. 
+2. Take the two lowest probability symbol and create a new common node with the probability equal to the sum of the two probability. Always make sure to add the lowest summing up nodes. 
 3. Add the new node to the table instead of the lowest two symbols or nodes. 
 4. Repeat step two and three until one symbol or node is remaining. 
-5. Then allocate ‘0’ too all the left branches of all the nodes and ‘1’ to all right branches
+5. Then allocate ‘0’ to all the right branches and ‘1’ to all right branches
 6. Read the bits from top of the tree to the bottom to each symbol and record their particular bit pattern 
 
 ### A Practical Example
@@ -44,3 +44,10 @@ The following table represents the letters and their occurances in the above sen
 
 For the above table, consider the following huffman tree. Arrange all the letters in ascending order in their frequency of their occurance.
 ![Huffman Tree Sample](images/huffman_diagram.png)
+
+## How to Run the code
+Compile both of the programs called huffman_encode.c and huffman_decode.c using GCC. 
+```
+gcc -o huffman_encode huffman_encode.c
+gcc -o huffman_decode huffman_decode.c
+```

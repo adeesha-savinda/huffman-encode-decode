@@ -36,13 +36,13 @@ Consider the following sentence.
 The following table represents the letters and their occurances in the above sentence.
 |letter|no of occurences|letter|no of occurences|
 |------|----------------|------|----------------|
-|T     |2               |c     |2               |
-|h     |1               |m     |2               |
-|i     |6               |u     |1               |
-|s     |2               |a     |1               |
-|space |3               |g     |2               |
-|e     |3               |r     |1               |
-|o     |2               |n     |5               |
+|T     |2               |M     |2               |
+|H     |1               |U     |1               |
+|I     |6               |N     |5               |
+|S     |2               |A     |1               |
+|space |3               |E     |3               |
+|C     |2               |G     |2               |
+|O     |2               |R     |1               |
 
 For the above table, consider the following huffman tree. Arrange all the letters in ascending order in their frequency of their occurance.
 ![Huffman Tree Sample](images/huffman_diagram.png)

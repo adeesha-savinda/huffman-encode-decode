@@ -1,6 +1,6 @@
 # Compression of Text using Huffman Coding
 
-Refer the medium article for a better understanding: https://medium.com/@asavinda/c-program-for-text-compression-using-huffman-coding-6625d31d9e43
+Refer the medium article for a better understanding: https://medium.com/@asavinda/c-program-for-text-compression-using-huffman-coding-6625d31d9e43?source=friends_link&sk=834b8706a7852100070b9000786fc010
 
 This implementation has two seperate C programs. One will input a text file and will output a compressed version of the text file into two separate files. One is the **.huffman** file which has the content. The other file is **.table** file where it contains the huffman lookup table. The other program is used for decompression. This program inputs the above generated two **.huffman** file and **.table** file and will output a **.txt** file.
 

@@ -9,6 +9,7 @@
 //i.e. .huffman file of any size can be decoded back
 #include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 
 //structure used to define a node
 typedef struct node_t {

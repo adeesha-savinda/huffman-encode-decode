@@ -46,6 +46,6 @@ huffman_encode abc.txt
 ```
 Use the **huffman_decode** binary to decode or decompress any **.huffman** and **.table** file. These two files are mandatory. The decoded file will be saved in a directory with extension **.decoded**
 ```
-huffman_decode abc.huffman
+huffman_decode abc.txt.huffman
 ```
 
